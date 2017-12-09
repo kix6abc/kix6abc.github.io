@@ -13,7 +13,7 @@
 ;;; Custom configuration for the export.
 
 ;;; Add any custom configuration that you would like to 'conf.el'.
-(setq nikola-use-pygments t
+(setq nikola-use-pygments nil
       org-export-with-toc nil
       org-export-with-section-numbers nil
       org-startup-folded 'showeverything)
