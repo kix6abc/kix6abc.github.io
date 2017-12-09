@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://example.com/categories/cat_others.xml</loc>
-  <lastmod>2017-12-09T07:25:00Z</lastmod>
+  <lastmod>2017-12-09T08:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/mathjax.xml</loc>
-  <lastmod>2017-12-09T07:25:00Z</lastmod>
+  <lastmod>2017-12-09T08:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/galleries/rss.xml</loc>
@@ -19,10 +19,10 @@
  </sitemap>
  <sitemap>
   <loc>https://example.com/rss.xml</loc>
-  <lastmod>2017-12-09T07:25:00Z</lastmod>
+  <lastmod>2017-12-09T08:14:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2017-12-09T07:48:00Z</lastmod>
+  <lastmod>2017-12-09T08:14:00Z</lastmod>
  </sitemap>
 </sitemapindex>

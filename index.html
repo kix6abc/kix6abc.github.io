@@ -10,7 +10,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://example.com/">
-<!--[if lt IE 9]><script src="assets/js/html5shiv-printshiv.min.js"></script><![endif]--><link rel="prefetch" href="posts/hello-world/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5shiv-printshiv.min.js"></script><![endif]--><link rel="prefetch" href="posts/some-tricks/" type="text/html">
 </head>
 <body>
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -31,7 +31,35 @@
     
     
     </ul></nav></header><main id="content"><div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/hello-world/" class="u-url">hello-world</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/some-tricks/" class="u-url">使用nikola时的一些坑点</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                kix6
+            </span></p>
+            <p class="dateline"><a href="posts/some-tricks/" rel="bookmark"><time class="published dt-published" datetime="2017-12-09T16:13:26+08:00" title="2017-12-09 16:13">2017-12-09 16:13</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <p>
+弄了好久终于把github page搭好了, 我这中看docs都看不懂的还有救吗?
+</p>
+
+<p>
+如果要使用orgmode, 需要安装插件orgmode.
+</p>
+<blockquote>
+<p>
+nikola plugin -i orgmode
+</p>
+</blockquote>
+
+<p>
+然后用orgmode写了之后发现代码不能高亮???? 然后Google发现要在orgmode的init.el中设置
+<code>nikola-use-pygments nil</code>, 然后用 <code>pygmentize</code> 生成一个 <code>custom.css</code> 文件, 
+然后在主题文件的 <code>bundles</code> 中加入 <code>custom.css</code> , 然后就能高亮了. 然而我后来尝试
+改变主题, 但是怎么也高亮不了了, 不知道为什么.
+</p>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/hello-world/" class="u-url">hello-world</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 kix6
