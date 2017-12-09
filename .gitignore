@@ -1,0 +1,6 @@
+*.py[cod]
+__pacache__
+cache
+output
+.doit.db
+_env/
