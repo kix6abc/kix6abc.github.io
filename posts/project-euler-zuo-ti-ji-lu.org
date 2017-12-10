@@ -1,0 +1,22 @@
+#+BEGIN_COMMENT
+.. title: Project Euler 做题记录
+.. slug: project-euler-zuo-ti-ji-lu
+.. date: 2017-12-10 21:09:23 UTC+08:00
+.. tags: mathjax, math, project-euler
+.. category: OI
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+记录一下苣蒻的Project Euler做题记录.
+
+#+BEGIN_HTML
+<!--TEASER_END-->
+#+END_HTML
+
+**** 2017.12.10
+***** problem 209
+图肯定是一堆的环, 然后相邻两个不能同为1, dp一下.
+***** problem 207
+转换成一元二次方程然后暴力枚举k

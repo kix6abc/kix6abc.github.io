@@ -2,7 +2,7 @@
 .. title: Project Euler 216
 .. slug: project-euler-216
 .. date: 2017-12-09 16:45:57 UTC+08:00
-.. tags: mathjax, math, project euler
+.. tags: mathjax, math, project-euler
 .. category: OI
 .. link: 
 .. description: 
