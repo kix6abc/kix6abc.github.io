@@ -4,16 +4,17 @@
 ;; Requires org-mode v8.x
 
 (require 'package)
-(setq package-load-list '((htmlize t)))
+;; (setq package-load-list '((htmlize t)))
 (package-initialize)
 
+;; (require 'htmlize)
 (require 'org)
 (require 'ox-html)
 
 ;;; Custom configuration for the export.
 
 ;;; Add any custom configuration that you would like to 'conf.el'.
-(setq nikola-use-pygments nil
+(setq nikola-use-pygments t
       org-export-with-toc nil
       org-export-with-section-numbers nil
       org-startup-folded 'showeverything)
