@@ -6,23 +6,47 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://example.com/categories/cat_math-project-euler.xml</loc>
+  <lastmod>2017-12-09T09:58:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_oi.xml</loc>
+  <lastmod>2017-12-10T12:56:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://example.com/categories/cat_others.xml</loc>
-  <lastmod>2017-12-09T08:14:00Z</lastmod>
+  <lastmod>2017-12-09T09:59:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/cat_za.xml</loc>
+  <lastmod>2017-12-10T13:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/math.xml</loc>
+  <lastmod>2017-12-10T12:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/mathjax.xml</loc>
-  <lastmod>2017-12-09T08:14:00Z</lastmod>
+  <lastmod>2017-12-10T13:01:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/project-euler.xml</loc>
+  <lastmod>2017-12-10T12:56:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/za.xml</loc>
+  <lastmod>2017-12-10T13:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/galleries/rss.xml</loc>
-  <lastmod>2017-12-09T07:48:00Z</lastmod>
+  <lastmod>2017-12-10T13:02:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/rss.xml</loc>
-  <lastmod>2017-12-09T08:14:00Z</lastmod>
+  <lastmod>2017-12-10T13:01:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2017-12-09T08:14:00Z</lastmod>
+  <lastmod>2017-12-10T13:02:00Z</lastmod>
  </sitemap>
 </sitemapindex>

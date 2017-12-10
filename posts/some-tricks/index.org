@@ -2,14 +2,14 @@
 .. title: 使用nikola时的一些坑点
 .. slug: some-tricks
 .. date: 2017-12-09 16:13:26 UTC+08:00
-.. tags: mathjax
-.. category: Others
+.. tags: mathjax, 杂
+.. category: 杂
 .. link: 
 .. description: 
 .. type: text
 #+END_COMMENT
 
-弄了好久终于把github page搭好了, 我这中看docs都看不懂的还有救吗?
+弄了好久终于把github page搭好了, 我这种看docs都看不懂的还有救吗?
 
 如果要使用orgmode, 需要安装插件orgmode.
 #+BEGIN_QUOTE

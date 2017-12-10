@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>kix6's site</title><link>https://example.com/</link><description>kix6's site</description><atom:link href="https://example.com/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><copyright>Contents © 2017 &lt;a href="mailto:n.tesla@example.com"&gt;kix6&lt;/a&gt; </copyright><lastBuildDate>Sat, 09 Dec 2017 08:45:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>使用nikola时的一些坑点</title><link>https://example.com/posts/some-tricks/</link><dc:creator>kix6</dc:creator><description>&lt;p&gt;
-弄了好久终于把github page搭好了, 我这中看docs都看不懂的还有救吗?
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kix6's site</title><link>https://example.com/</link><description>kix6's site</description><atom:link rel="self" href="https://example.com/rss.xml" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2017 &lt;a href="mailto:n.tesla@example.com"&gt;kix6&lt;/a&gt; </copyright><lastBuildDate>Sun, 10 Dec 2017 13:07:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Project Euler 216</title><link>https://example.com/posts/project-euler-216/</link><dc:creator>kix6</dc:creator><description>&lt;div&gt;&lt;p&gt;
+比较厉害的一道题.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://example.com/posts/project-euler-216/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>math</category><category>mathjax</category><category>project euler</category><guid>https://example.com/posts/project-euler-216/</guid><pubDate>Sat, 09 Dec 2017 08:45:57 GMT</pubDate></item><item><title>使用nikola时的一些坑点</title><link>https://example.com/posts/some-tricks/</link><dc:creator>kix6</dc:creator><description>&lt;p&gt;
+弄了好久终于把github page搭好了, 我这种看docs都看不懂的还有救吗?
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -17,7 +21,7 @@ nikola plugin -i orgmode
 &lt;code&gt;nikola-use-pygments nil&lt;/code&gt;, 然后用 &lt;code&gt;pygmentize&lt;/code&gt; 生成一个 &lt;code&gt;custom.css&lt;/code&gt; 文件, 
 然后在主题文件的 &lt;code&gt;bundles&lt;/code&gt; 中加入 &lt;code&gt;custom.css&lt;/code&gt; , 然后就能高亮了. 然而我后来尝试
 改变主题, 但是怎么也高亮不了了, 不知道为什么.
-&lt;/p&gt;</description><category>mathjax</category><guid>https://example.com/posts/some-tricks/</guid><pubDate>Sat, 09 Dec 2017 08:13:26 GMT</pubDate></item><item><title>hello-world</title><link>https://example.com/posts/hello-world/</link><dc:creator>kix6</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;/p&gt;</description><category>mathjax</category><category>杂</category><guid>https://example.com/posts/some-tricks/</guid><pubDate>Sat, 09 Dec 2017 08:13:26 GMT</pubDate></item><item><title>hello-world</title><link>https://example.com/posts/hello-world/</link><dc:creator>kix6</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
 &lt;h2 id="sec-1"&gt;一级标题&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;/div&gt;&lt;div id="outline-container-sec-1-1" class="outline-3"&gt;
@@ -44,4 +48,4 @@ $$
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>mathjax</category><guid>https://example.com/posts/hello-world/</guid><pubDate>Sat, 09 Dec 2017 07:23:27 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>mathjax</category><category>杂</category><guid>https://example.com/posts/hello-world/</guid><pubDate>Sat, 09 Dec 2017 07:23:27 GMT</pubDate></item></channel></rss>

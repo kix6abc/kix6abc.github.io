@@ -2,8 +2,8 @@
 .. title: hello-world
 .. slug: hello-world
 .. date: 2017-12-09 15:23:27 UTC+08:00
-.. tags: mathjax
-.. category: Others
+.. tags: mathjax, 杂
+.. category: 杂
 .. link: 
 .. description: my first post
 .. type: text
@@ -12,7 +12,7 @@
 * 一级标题
 ** 二级标题
 *** 三级标题
-
+    
 #+BEGIN_SRC c++
 #include <cstdio>
 int main() {
