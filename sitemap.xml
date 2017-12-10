@@ -15,23 +15,15 @@
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2017-12-10T13:02:00Z</lastmod>
+  <lastmod>2017-12-10T13:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2017-12-10T01:55:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/cat_math-project-euler/</loc>
-  <lastmod>2017-12-09T08:50:00Z</lastmod>
+  <lastmod>2017-12-10T13:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_oi/</loc>
   <lastmod>2017-12-10T01:55:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/cat_others/</loc>
-  <lastmod>2017-12-09T07:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_za/</loc>
@@ -67,7 +59,11 @@
  </url>
  <url>
   <loc>https://example.com/posts/project-euler-216/</loc>
-  <lastmod>2017-12-10T02:56:00Z</lastmod>
+  <lastmod>2017-12-10T13:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/posts/project-euler-zuo-ti-ji-lu/</loc>
+  <lastmod>2017-12-10T13:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/some-tricks/</loc>
