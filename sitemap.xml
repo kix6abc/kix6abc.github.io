@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-11T02:42:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2017-12-10T13:07:00Z</lastmod>
+  <lastmod>2017-12-11T02:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_oi/</loc>
@@ -40,6 +40,10 @@
  <url>
   <loc>https://example.com/categories/project-euler/</loc>
   <lastmod>2017-12-10T01:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/you-ji/</loc>
+  <lastmod>2017-12-11T02:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/za/</loc>
@@ -64,6 +68,10 @@
  <url>
   <loc>https://example.com/posts/project-euler-zuo-ti-ji-lu/</loc>
   <lastmod>2017-12-10T13:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/posts/qing-hua-ji-xun-2017zong-jie/</loc>
+  <lastmod>2017-12-11T02:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/some-tricks/</loc>

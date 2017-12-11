@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " vocab="http://ogp.me/ns" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>galleries | kix6's site</title>
-<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/hack.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+<link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 <link rel="canonical" href="https://example.com/galleries/">
-<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><style>body{font-size:20px;}</style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <style type="text/css">
     .image-block {
         display: inline-block;
@@ -16,102 +24,66 @@
         width: 100%;
     }
     </style>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 </head>
-<body>
+<body class="hack">
+
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+    <div id="container">
+         
+    <header id="header"><h1 id="brand"><a href="https://example.com/" title="kix6's site" rel="home">
 
-<!-- Menubar -->
+        <span id="blog-title">kix6's site</span>
+    </a></h1>
 
-<div class="navbar navbar-static-top" id="navbar">
-    <div class="navbar-inner">
-        <div class="container">
+        
 
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </a>
-
-            <a class="brand" href="https://example.com/">
-
-                <span id="blog-title">kix6's site</span>
-            </a>
-            <!-- Everything you want hidden at 940px or less, place within here -->
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-<li>
-<a href="../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../categories/">Tags</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
-
-                    
-                </li>
-</ul>
-<ul class="nav pull-right">
-<li>
-                
-                </ul>
-</div>
-        </div>
-    </div>
-</div>
-<!-- End of Menubar -->
-<div class="container-fluid" id="content" role="main">
-    <!--Body content-->
-    <div class="row-fluid">
-    <div class="span2"></div>
-    <div class="span8">
+        
+    <nav id="menu"><ul>
+<li><a href="../archive.html">Archive</a></li>
+                <li><a href="../categories/">Tags</a></li>
+                <li><a href="../rss.xml">RSS feed</a></li>
     
     
-    
-<nav class="breadcrumbs"><ul class="breadcrumb">
+    </ul></nav></header><main id="content"><nav class="breadcrumbs"><ul class="breadcrumb">
 <li>galleries</li>
 </ul></nav><h1>galleries</h1>
 
 <div id="gallery_container"></div>
 
-    </div>
-    </div>
-    <!--End of body content-->
+         </main><footer id="footer"><p>Contents © 2017         <a href="mailto:n.tesla@example.com">kix6</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
 </div>
-<div class="footerbox">
-    Contents © 2017         <a href="mailto:n.tesla@example.com">kix6</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
     
-</div>
+    
 
-            <script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
-    moment.locale("en");
-    fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
+    
+<script src="../assets/js/flowr.js"></script><script>
 jsonContent = [];
-$("#gallery_container").flowr({
+flowr(document.querySelectorAll("#gallery_container")[0], {
         data : jsonContent,
         height : 180*.6,
         padding: 5,
         rows: -1,
         render : function(params) {
             // Just return a div, string or a dom object, anything works fine
-            img = $("<img />").attr({
-                'src': params.itemData.url_thumb,
-                'width' : params.width,
-                'height' : params.height
-            }).css('max-width', '100%');
-            link = $( "<a></a>").attr({
-                'href': params.itemData.url,
-                'class': 'image-reference'
-            });
-            div = $("<div />").addClass('image-block').attr({
-                'title': params.itemData.title,
-                'data-toggle': "tooltip",
-            });
+            var img = document.createElement("img");
+            img.setAttribute('src', params.itemData.url_thumb);
+            img.setAttribute('width', params.width);
+            img.setAttribute('height', params.height);
+            img.setAttribute('alt', params.itemData.title);
+            img.style.maxWidth = '100%';
+            link = document.createElement("a");
+            link.setAttribute('href', params.itemData.url);
+            link.setAttribute('class', 'image-reference');
+            div = document.createElement("div");
+            div.setAttribute('class', 'image-block');
+            div.setAttribute('title', params.itemData.title);
+            div.setAttribute('data-toggle', "tooltip")
             link.append(img);
             div.append(link);
-            div.hover(div.tooltip());
+            //div.hover(div.tooltip());
             return div;
         },
         itemWidth : function(data) { return data.size.w; },
@@ -122,7 +94,10 @@ $("#gallery_container").flowr({
             }
         }
     });
-$("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
+    baguetteBox.run('#gallery_container', {
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
 </script>
 </body>
 </html>

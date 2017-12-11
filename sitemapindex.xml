@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://example.com/categories/cat_oi.xml</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-11T02:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/cat_za.xml</loc>
@@ -15,15 +15,19 @@
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/math.xml</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-10T13:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/mathjax.xml</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-11T02:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/project-euler.xml</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-10T13:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://example.com/categories/you-ji.xml</loc>
+  <lastmod>2017-12-11T02:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/categories/za.xml</loc>
@@ -31,14 +35,14 @@
  </sitemap>
  <sitemap>
   <loc>https://example.com/galleries/rss.xml</loc>
-  <lastmod>2017-12-10T13:02:00Z</lastmod>
+  <lastmod>2017-12-11T02:42:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/rss.xml</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-11T02:34:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2017-12-10T13:12:00Z</lastmod>
+  <lastmod>2017-12-11T02:42:00Z</lastmod>
  </sitemap>
 </sitemapindex>

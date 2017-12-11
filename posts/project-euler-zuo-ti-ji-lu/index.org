@@ -15,8 +15,11 @@
 <!--TEASER_END-->
 #+END_HTML
 
+[[file:https://projecteuler.net/profile/kiiiiii.png]]
 **** 2017.12.10
 ***** problem 209
 图肯定是一堆的环, 然后相邻两个不能同为1, dp一下.
 ***** problem 207
 转换成一元二次方程然后暴力枚举k
+***** problem 232
+dp
