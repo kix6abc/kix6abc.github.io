@@ -1,0 +1,45 @@
+#+BEGIN_COMMENT
+.. title: project-euler-521
+.. slug: project-euler-521
+.. date: 2017-12-19 21:00:28 UTC+08:00
+.. tags: mathjax
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+* 题意
+#+BEGIN_QUOTE
+设 $smpf(i)$ 为 $i$ 的最小质因子, 求 $\sum\limits_{i=2}^{n} smpf(i), N \leq 10^{12}$.
+#+END_QUOTE
+
+#+BEGIN_HTML
+<!--TEASER_END-->
+#+END_HTML
+
+线性做法很简单, 筛一下就行了. 我尝试用容斥划出了这样一个式子:
+$$
+S(N) - \sum_{i=1}^{N} \mu (i) (S(\lfloor \frac{N}{i} \rfloor) \times i - i \times
+bgpf(i) \times \lfloor \frac{N}{i} \rfloor. 
+$$
+其中 $S(N) = {N \choose 2}$, $bgpf(i)$ 为 $i$ 的最大质因子.
+
+感觉只是把最小质因子换成了最大质因子, 式子还变复杂了, 并没有什么用.
+
+然后Google题解, 发现做法在与 PE10 的讨论区第 5 页的一条有关.
+
+然后看了一下, 意思是可以 $O(N^{\frac{3}{4}})$ 和 $O(N^{\frac{2}{3}})$ 求不超过 $N$ 的质数的
+和, 感觉很神奇.
+
+他的做法是设 $f(N, p)$ 为 $1$ 到 $N$ 在用不超过 $p$ 的素数筛掉之后没被筛的数和素数之和为多少.
+
+如果 $p$ 不是素数或 $N \leq p^2$, 那么 $f(N, p) = f(N, p - 1)$, 否则 $f(N, p) = f(N, p - 1) - p(f(\lfloor \frac{N}{p} \rfloor, p - 1) - f(p - 1, p - 1))$.
+
+就是计算被 $p$ 筛掉的数之和.
+
+然后复杂度是 $O(N^{\frac{3}{4}})$, 应该可以用类似杜教筛的方法预处理一部分优化到 $O(N^{\frac{2}{3}})$.
+
+稍加拓展就能做这题.
+
+然而学校电脑内存太小, 第一次跑直接内存泄露卡死, 然后设了个阀值, 并只记忆划 $N$ 比较小的才跑出来.
